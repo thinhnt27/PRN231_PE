@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN231.TrialTest.API", "PRN231.TrialTest.API\PRN231.TrialTest.API.csproj", "{4C456687-039E-40C4-9D1F-F817F2A43CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN231.TrialTest.Library", "PRN231.TrialTest.Library\PRN231.TrialTest.Library.csproj", "{B25ABD2D-6BFB-4A13-B6A5-0EABC08583E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C456687-039E-40C4-9D1F-F817F2A43CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C456687-039E-40C4-9D1F-F817F2A43CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C456687-039E-40C4-9D1F-F817F2A43CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C456687-039E-40C4-9D1F-F817F2A43CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25ABD2D-6BFB-4A13-B6A5-0EABC08583E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25ABD2D-6BFB-4A13-B6A5-0EABC08583E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25ABD2D-6BFB-4A13-B6A5-0EABC08583E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25ABD2D-6BFB-4A13-B6A5-0EABC08583E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B05E0E5B-5CD6-4C83-9A8C-16B88E9F6523}
+	EndGlobalSection
+EndGlobal
