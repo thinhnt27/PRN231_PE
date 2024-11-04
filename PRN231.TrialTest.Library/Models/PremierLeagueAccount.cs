@@ -2,13 +2,11 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace PRN231.TrialTest.Library.Models;
 
 public partial class PremierLeagueAccount
 {
-    [Key]
     public int AccId { get; set; }
 
     public string Password { get; set; }

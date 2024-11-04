@@ -86,10 +86,10 @@ public partial class EnglishPremierLeague2024DBContext : DbContext
                 .IsRequired()
                 .HasMaxLength(400);
 
-            //entity.HasOne(d => d.FootballClub).WithMany(p => p.FootballPlayers)
-            //    .HasForeignKey(d => d.FootballClubId)
-            //    .OnDelete(DeleteBehavior.Cascade)
-            //    .HasConstraintName("FK__FootballP__Footb__3C69FB99");
+            entity.HasOne(d => d.FootballClub).WithMany(p => p.FootballPlayers)
+                .HasForeignKey(d => d.FootballClubId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__FootballP__Footb__3C69FB99");
         });
 
         modelBuilder.Entity<PremierLeagueAccount>(entity =>

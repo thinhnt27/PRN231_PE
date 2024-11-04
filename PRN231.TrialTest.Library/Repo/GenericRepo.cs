@@ -2,7 +2,7 @@
 using PRN231.TrialTest.Library.Models;
 using System.Linq.Expressions;
 
-namespace PEPRN231_SU24_LeQuyetAnh_Library.Repo;
+namespace PRN231.TrialTest.Library.Repo;
 
 public class GenericRepo<TEntity>
     where TEntity : class

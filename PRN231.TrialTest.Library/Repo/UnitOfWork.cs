@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PEPRN231_SU24_LeQuyetAnh_Library.Repo;
+namespace PRN231.TrialTest.Library.Repo;
 public class UnitOfWork : IDisposable
 {
     private EnglishPremierLeague2024DBContext context = new EnglishPremierLeague2024DBContext();

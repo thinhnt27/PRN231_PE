@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using PEPRN231_SU24_LeQuyetAnh_Library.Repo;
+using PRN231.TrialTest.Library.Repo;
 using PRN231.TrialTest.API.Helper;
 using System.Security.Claims;
 

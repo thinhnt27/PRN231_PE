@@ -2,13 +2,11 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace PRN231.TrialTest.Library.Models;
 
 public partial class FootballClub
 {
-    [Key]
     public string FootballClubId { get; set; }
 
     public string ClubName { get; set; }
@@ -19,5 +17,5 @@ public partial class FootballClub
 
     public string Mascos { get; set; }
 
-    //public virtual ICollection<FootballPlayer> FootballPlayers { get; set; } = new List<FootballPlayer>();
+    public virtual ICollection<FootballPlayer> FootballPlayers { get; set; } = new List<FootballPlayer>();
 }
