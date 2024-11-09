@@ -175,6 +175,7 @@ namespace PRN231.TrialTest.API.Controllers
             // Validate FullName format
             //Fullname includes a-z, A-Z, space, @, # and digit 0-9. Each word of the Fullname must begin with the capital letter.
             var words = player.FullName.Split(' ');
+            // regex with first letter is uppercase and only contains letters, numbers, @, #
             var fullnameRegex = new Regex(@"^[A-Z][a-zA-Z0-9@#]*$");
             foreach (var word in words)
             {
