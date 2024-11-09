@@ -92,7 +92,8 @@ namespace PRN231.TrialTest.API.Controllers
             _unitOfWork.PlayerRepo.Delete(player);
             await _unitOfWork.SaveAsync();
 
-            return Ok(new { msg = "Player deleted!" });
+            //return Ok(new { msg = "Player deleted!" });
+            return NoContent();
         }
 
         [HttpPost]
@@ -118,7 +119,8 @@ namespace PRN231.TrialTest.API.Controllers
             await _unitOfWork.PlayerRepo.InsertAsync(newPlayer);
             await _unitOfWork.SaveAsync();
 
-            return Ok(newPlayer);
+            //return Ok(newPlayer);
+            return CreatedAtAction(nameof(GetPlayer), new { id = newPlayer.FootballPlayerId }, newPlayer);
         }
 
         [HttpPut("{id}")]
@@ -157,7 +159,8 @@ namespace PRN231.TrialTest.API.Controllers
             
 
             await _unitOfWork.SaveAsync();
-            return Ok(playerToUpdate);
+            //return Ok(playerToUpdate);
+            return NoContent();
         }
 
         private bool ValidateAddPlayerRequest(AddPlayerReq player)

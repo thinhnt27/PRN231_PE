@@ -17,5 +17,5 @@ public partial class FootballClub
 
     public string Mascos { get; set; }
 
-    public virtual ICollection<FootballPlayer> FootballPlayers { get; set; } = new List<FootballPlayer>();
+    //public virtual ICollection<FootballPlayer> FootballPlayers { get; set; } = new List<FootballPlayer>();
 }
